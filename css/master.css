@@ -1,0 +1,185 @@
+html, body,h1, h2, h3, ul {
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../img/bc.png);
+	background-size: cover;
+	background-position: center;
+}
+
+h1 {
+	text-align:left;
+	font-family: arial;
+	color: black;
+}
+h2{
+	padding: 0px 0px 0px 30px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 40px;
+	line-height: 60px;
+	letter-spacing: 0.04em;
+	color: #000000;
+}
+
+#showcase {color: white;
+font-family: fantasy;
+box-sizing: border-box;
+border: 2px 2px;
+text-shadow: 0px 1px 1px;
+}
+
+/*HEADER*/
+header{
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  z-index: 99;}
+
+#logo {
+  float: left;
+  padding: 10px 0px 0px 50px;
+
+}
+nav {
+  float: left;
+  display: block;
+  padding: 19px 20px 0px 0px;
+  }
+#showcase{
+  padding: 52px 50px 0px 30px;
+  background-size: cover;
+  background-position: center;}
+
+#detail {
+	padding: 100px 0px 0px 0px;
+	width:50%;
+	height:100px;
+	float:left;
+}
+.form-input {
+	margin: 30px 30px 30px 30px;
+	padding: 0px 0px 0px 30px;
+	color: grey;
+	width:60%;
+	height:37px;
+	float:left;
+	border-radius: 10px;
+
+}
+#weather {
+	width:50%;
+	height:550px;
+	float:right;
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0px 5px 1px rgba(255, 255, 255, 0.5);
+	border-radius: 23px;
+}
+	#weather h1 {
+		padding: 0px 0px 50px 60px;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 117px;
+		line-height: 190px;
+		float: left;
+		position: absolute;
+	}
+	
+	#weather h2 {
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 600;
+		font-size: 42.5px;
+		letter-spacing: 0.08em;
+		color: #000000;
+		padding: 190px 0px 0px 66px;
+
+	}
+
+	#weather h3 {
+		padding: 0px 0px 0px 66px;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: 50;
+		font-size: 28px;
+		float: left;
+		color: #000000;
+	}
+
+	#weather h4 {
+
+		padding: 9px 0px 0px 65px;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 22px;
+		float: left;
+		color: #000000;
+	}
+
+	#weather p {
+		padding: 0px 0px 0px 60px;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		line-height: 100px;
+		float: left;
+		color: #000000;
+	
+	}
+	#weather h5 {
+		padding: 7px 0px 0px 180px;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		float: left;
+		color: #000000;
+		position: absolute;
+	}
+	#weather h6 {
+		padding: 75px 0px 0px 65px;
+		font-family: Poppins;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		float: left;
+		color: #000000;
+		position: absolute;
+	}
+
+.box {
+  margin: 30px 0px 0px 54px;
+  padding: 0px 0px 0px 0px;
+  float: left;
+  width: 50px;
+  height: 20px;
+  display: inline-block;
+}
+.text, .text2 {
+	text-align: left;
+	font-size: 16px;
+	font-family: Poppins;
+	color: black;
+	line-height: 0px;
+}
+
+.text {
+	padding: 20px 0px 0px 10px;
+	
+}
+.text2 {
+	padding: 0px 0px 0px 20px;
+}
+
+.box img {
+	padding: 20px 0px 20px 20px;
+	float: right;
+	width: 45px;
+	height: 45px;
+}
+
